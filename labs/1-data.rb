@@ -15,3 +15,13 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+# yo  puts rand(1..6)
+#I want to store that as a value.
+#I want to save that dies if I've rolled it and I want to just know that that was the value.
+first_rol = rand(1..6)  # a good variable name is descriptive
+#puts first_rol
+second_rol = rand(1..6)
+#puts second_rol
+total= first_rol + second_rol # I want calculate the total of this 2 variables
+puts "you rolled: #{total}" # I use {} because I want to print the valor of the variable total

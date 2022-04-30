@@ -12,6 +12,33 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+
+ben_list =["diapers","wipes","bath toys", "toilet paper"]
+lu_list =["tacos", "pizza", "toilet paper"]
+
+#puts ben_list.inspect
+
+#1 combine the lists together
+combined_list = ben_list + lu_list
+#puts combined_list.inspect
+
+#2. sort the lists (alphabetically)
+
+sorted_list = combined_list.sort
+puts sorted_list.inspect
+
+#3. remove duplicates from the list
+unique_list = sorted_list.uniq
+puts unique_list.inspect
+
+#4. display each item in the list prepended with "buy "
+
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
+puts "buy #{unique_list[2]}"
+puts "buy #{unique_list[3]}"
+puts "buy #{unique_list[4]}"
+puts "buy #{unique_list[5]}"
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
